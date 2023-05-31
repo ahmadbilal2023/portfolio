@@ -5,17 +5,17 @@ import React from "react";
 const Project = () => {
   return (
     <div id="project">
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+      <section className="text-gray-600 body-font relative z-[2]">
+        <div className="container py-24 mx-auto">
+          <div className="flex flex-col text-center mb-10">
+            <h1 className="sm:text-3xl text-2xl title-font mb-4 text-red-500 font-extrabold underline underline-offset-8">
               My Projects
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
               Front-End & Back-End Development
             </p>
           </div>
-          <div className="flex flex-wrap -m-8">
+          <div className="flex flex-wrap">
             {/* {Projects online_store_shopping } */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
