@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="px-4 rounded-xl lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-red-500 underline underline-offset-8">
               Contact Information
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
