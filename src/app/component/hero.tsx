@@ -11,8 +11,8 @@ const Hero = () => {
           <div className="container z-[2] md:flex md:flex-row flex flex-col-reverse justify-center mx-auto md:gap-x-4">
             <div className=" lg:flex-grow md:basis-1/2   flex flex-col md:items-start md:text-left items-center text-center  ">
               <h1 className="capitalize pt-6 text-3xl font-extrabold md:inline-flex">
-                `i am full stack`
-                <div className="text-red-500 pl-2"> developer</div>
+                i am full stack
+                <div className="text-red-500 pl-2">developer</div>
               </h1>
               <div className="w-[370px] h-[3px] bg-blue-800 mt-2"></div>
               <p className="mb-8 leading-relaxed text-base font-semibold mt-6">
