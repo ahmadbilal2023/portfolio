@@ -13,8 +13,8 @@ import { BsMedium } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="bg-slate-100 relative z-[2]">
-      <footer className="text-gray-600 body-font">
-        <div className="container py-8 mx-auto  md:flex-row md:justify-between flex flex-col justify-center text-center">
+      <footer className="text-gray-600 body-font max-w-6xl mx-auto">
+        <div className="container py-8 mx-auto md:flex-row md:justify-between flex flex-col justify-center text-center">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image
               src={"/assests/pictures/coding.jpg"}

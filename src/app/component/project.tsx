@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div id="project">
       <section className="text-gray-600 body-font relative z-[2]">
-        <div className="container py-24 mx-auto">
+        <div className="container py-24">
           <div className="flex flex-col text-center mb-10">
             <h1 className="sm:text-3xl text-2xl title-font mb-4 text-red-500 font-extrabold underline underline-offset-8">
               My Projects
@@ -174,6 +174,38 @@ const Project = () => {
                     href={
                       "https://github.com/ahmadbilal2023/CLI-Calculator-ts-node.js.git"
                     }
+                  >
+                    <p className="leading-relaxed text-blue-500 hover:underline">
+                      View Project Code...
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* {Projects todo-app-frontend } */}
+            <div className="lg:w-1/3 sm:w-1/2 p-4">
+              <div className="flex relative">
+                <Image
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-cente"
+                  src={"/assests/pictures/todo_app.png"}
+                  width={700}
+                  height={700}
+                />
+                <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                    CLI Project
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    todo-app-frontend
+                  </h1>
+                  <p className="leading-relaxed line-clamp-2">
+                    In this project I have created a todo-app on fronted in
+                    which use node.js, typescript, figlet and inquirer.
+                  </p>
+                  <Link
+                    target="_blank"
+                    href={"https://todo-app-ahmadbilal.vercel.app/"}
                   >
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project Code...

@@ -16,12 +16,12 @@ const Hero = () => {
               </h1>
               <div className="w-[370px] h-[3px] bg-blue-800 mt-2"></div>
               <p className="mb-8 leading-relaxed text-base font-semibold mt-6">
-                `I'm professional and skilled to build web applications from the
+                I'm professional and skilled to build web applications from the
                 front-end to the back-end using Next.js-13, a popular
                 React-based web development framework. I strongly understand web
                 development technologies, including HTML, Tailwind_CSS,
                 JavaScript, Typescript, React, Node.js, APIs, Postgress,
-                Database related libraries and frameworks.`
+                Database related libraries and frameworks.
               </p>
               <div className="flex justify-center">
                 <Link href={"#Contact"}>
@@ -31,9 +31,9 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-            <div className="z-[2]  lg:w-full flex justify-center md:basis-1/2 ">
+            <div className="z-[2] lg:w-full flex justify-end md:basis-1/2 ">
               <Image
-                className=" rounded-full"
+                className="rounded-full hover:shadow-slate-800 shadow-2xl"
                 alt="hero"
                 src="/assests/pictures/profile.jpg"
                 width={350}
